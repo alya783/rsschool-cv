@@ -1,17 +1,14 @@
-![](/home/my/alya.jpeg)
 
 # Alina Strashevichutse
 
-- - - - - - 
 
 ## Contacts
 
 E-mail: astrashevichute@gmail.com  
 Reside in: Lviv, Ukraine  
-Citizenship: Belarus 
-Telegram: @alya_str   
+Citizenship: Belarus    
+Telegram: @alya_str    
 
-- - - - - -
 
 ## Work experience 
 
@@ -75,7 +72,7 @@ Achievements:
 * During the time I worked in this company I have developed strong communication skill, successfully
 managed basics management issues, received experience in corporate law.  
 
-**November 2016 - June 2017**
+**November 2016 - June 2017**  
 **Judge assistant**
 
 Duties:  
@@ -93,7 +90,6 @@ Achievements:
 * became a good communicator   
 * experience in working in stressful situations  
 
-- - - - - - - - 
 
 ## Education  
 
@@ -102,14 +98,12 @@ Achievements:
 * *2021* JavaScript for begginers (Stepic)  
 * *2020* The Belarusian State University (law, jurisprudence)   
 
-- - - - - - - -
 
 ## Languages
 
 * Russian - native 
 * English - Intermediate(B1) 
 
-- - - - - - - - 
 
 ## About me
 
