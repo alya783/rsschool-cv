@@ -1,0 +1,111 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 30px;  
+}
+
+.container{
+    width: 800px;
+    height: auto;
+    border: 1px solid black;
+    margin: auto; 
+}
+
+header{
+    width: 100%; 
+    height: fit-content;
+    background-color: rgb(199, 236, 236);
+}
+
+.center-img{
+    padding-top: 10px;
+    text-align: center;
+}
+
+h1{
+    text-align: center; 
+}
+
+#role{
+    text-align: center; 
+    padding: 5px;
+    font-size: 15pt;
+}
+
+.side1{
+    width: 50%;
+    height: 685px;
+    display: flex;
+    flex-direction: column;
+    float: left;
+    background-color: lightyellow;
+}
+
+.block{
+    margin: 20px 0px 5px 20px;
+}
+
+.block h3{
+    margin-bottom: 5px;
+}
+
+.block li{
+    margin-left: 20px;
+}
+
+.side2{
+    width: 50%;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: lightyellow;
+}
+
+.item1{
+    margin: 20px 5px 5px 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.work{
+    margin-bottom: 8px;
+}
+
+.date, .position{
+    font-weight:bold;
+    font-style: italic;
+}
+
+.item2{
+    margin: 20px 5px 5px 20px;
+}
+
+.item2 li{
+    margin-left: 20px;
+}
+
+.item1, .item2, h3{
+    margin-bottom: 5px;
+}
+
+footer{
+    width: 100%;  
+    background-color: rgb(59, 107, 107);
+    display: flex;
+    justify-content: space-around;
+
+}
+
+footer p{
+    font-weight:bold;
+    font-size: 15pt;
+    padding-top: 10px;
+}
+
+.links{
+    margin-right: 10px;
+}
