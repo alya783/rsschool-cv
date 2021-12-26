@@ -2,93 +2,112 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="style.css" rel="stylesheet">
     <title>CV</title>
 </head>
 <body>
-    <main class = "container">
+    <main class="resume">
         <header>
-            <p class="center-img"><img src="alya.jpeg" alt="alya" height="120" width="100"></p>
-            <h1>Alina Strashevichutse</h1>
-            <p id="role">Front-end developer(Trainee)</p>
+            <div class="header-img"><img src="img/300X400.jpg" alt="me"></div>
+            <div class="header-info">
+                <h1>Alina Strashevichutse</h1>
+                <h2>Front-end developer</h2>
+            </div>      
         </header>
-        <div class="side1">
-            <section class="block"> 
-                <h3>Contacts</h3>
-                <ul>
-                    <li>Telegram: @alya_str</li>
-                    <li>E-mail: astrashevichute@gmail.com</li>
-                    <li>Instagram: @astra9717</li>
-                </ul>
-            </section>
-            <section class="block">
-                <h3>About me</h3>
-                <p>My last job inspired me to start programming. I choose front-end development role and now I'm studying HTML, CSS, JS. Every day I solve different JS tasks on the Codewars platform and improve my layout skills. My goal is to make beautiful and functional websites. 
-                </p>
-            </section>
-            <section class="block"> 
-                <h3>Languages</h3>
-                <ul>
-                    <li>English - B1</li>
-                    <li>Russian - C1</li>
-                    <li>Belorussian - B2</li>
-                </ul>
-            </section>
-            <section class="block">
-                <h3>Key skills</h3>
-                <ul>
-                    <li>HTML5</li>
-                    <li>CSS</li>
-                    <li>JavaScript</li>
-                    <li>Git</li>
-                    <li>Figma</li>
-                </ul>
-            </section>
-        </div>
-        <div class="side2">
-            <section class = "item1">
-                <h3>Work experience</h3>
-                <div class = "work">
-                    <p class = "date">May 2021 - now</p>
-                    <p class = "position">Front-end developer(studying)</p>
-                    <p>Finished the course "JavaScript for begginers" on Stepic (certificate https://stepik.org/cert/997842)</p>
-                    <p>Studying on the course "Responsive Web Design" on Freecodecamp (Projects: https://codepen.io/astra97/full/BaWZddp, https://codepen.io/astra97/full/abJExXL)</p>
+        <div class="sections">
+            <section class="left-side">
+                <div class="about">
+                    <h2 class="headline">About</h2>
+                    <p>Hi! I'm a junior front-end developer. I have a good theoretical knowledges in computer sience and basic programming experience on my pet-projects. I will be happy to be a part of your company!</p>
                 </div>
-                <div class = "work">
-                    <p class = "date">December 2020 - May 2021</p>
-                    <p class = "position">IT Recruiter (ITиDigital agency)</p>
-                    <p> On this position I make a description of the vacancies, look for suitable candidates, hold negotiations with the candidates and prepare and lead the interviews.</p>
+                <div class="sklls">
+                    <h2 class="headline">Skills</h2>
+                    <ul>
+                        <li>HTML5</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Git</li>
+                        <li>Figma</li>
+                    </ul>
                 </div>
-                <div class = "work">
-                    <p class = "date">May 2019 - September 2020</p>
-                    <p class = "position">Office manager (Media Line)</p>
-                    <p>I monitoring office appliances and supplies,organizing events for team, onboarding new teammates, working with documentation of the company, organizing events for PR, copyrighting, SMM</p>
+                <div class="contacts">
+                    <h2 class="headline">Contacts</h2>
+                    <ul>
+                        <li>Telegram: @alya_str</li>
+                        <li>E-mail: astrashevichute@gmail.com</li>
+                        <li>Instagram: @astra9717</li>
+                    </ul>
                 </div>
-                <div class = "work">
-                    <p class = "date">June 2017 - May 2019</p>
-                    <p class = "position">Junior lawyer (Morozproduct JLLC)</p>
-                    <p> I working with claims, hold negotiation with our debtors, made a queries for government bodies and private companies, taking part in developing instructions for the staff,   
-                    working with post office (sending correspondence, changing and recharging of the advance book)</p>
+                <div class="languages">
+                    <h2 class="headline">Languages</h2>
+                    <ul>
+                        <li>English - B1</li>
+                        <li>Russian - C1</li>
+                        <li>Belorussian - B2</li>
+                    </ul>
                 </div>
             </section>
-            <section class = "item2">
-                <h3>Education</h3>
-                <ul>
-                    <li><strong>2021 - now</strong> - Responsive Web Design (FreeCodeCamp)</li>  
-                    <li><strong>2021 - now</strong> - JavaScript Algorithms and Data Structures (FreeCodeCamp)</li>  
-                    <li><strong>2021</strong> - JavaScript for begginers (Stepic)</li>  
-                    <li><strong>2020</strong> - The Belarusian State University (law, jurisprudence)</li> 
-                </ul>
+            <section class="right-side">
+                <div class="work-experience">
+                    <h2 class="headline">Projects</h2>
+                    <div class="projects">
+                        <div class="work">
+                            <h3>HTML Documentation</h3>
+                            <p>Description: simple handbook about the basic HTML elemets.</p>
+                            <p>Link: <a href="https://codepen.io/astra97/pen/xxrywaZ" target="_blank">https://codepen.io/astra97/pen/xxrywaZ</a></p>
+                            <p>Tools: HTML5, CSS</p>
+                        </div>  
+                        <div class="work">
+                            <h3>Survey form</h3>
+                            <p>Description: simple form for volunteers.</p>
+                            <p>Link: <a href="https://codepen.io/astra97/pen/abJExXL" target="_blank">https://codepen.io/astra97/pen/abJExXL</a></p>
+                            <p>Tools: HTML5, CSS</p>
+                        </div>  
+                        <div class="work">
+                            <h3>Whack-a-mole game</h3>
+                            <p>Description: intresting game that check your reaction.</p>
+                            <p>Link: <a href="https://alya783-jsfepreschool-whack-a-mole.netlify.app" target="_blank">https://alya783-jsfepreschool-whack-a-mole.netlify.app</a></p>
+                            <p>Tools: HTML5, CSS, JS</p>
+                        </div>  
+                        <div class="work">
+                            <h3>Landing page</h3>
+                            <p>Description: minimalistic landing page for the flowers shop.</p>
+                            <p>Link: <a href="https://codepen.io/astra97/pen/PojQqGy" target="_blank">https://codepen.io/astra97/pen/PojQqGy</a></p>
+                            <p>Tools: HTML5, CSS</p>
+                        </div>             
+                    </div>        
+                </div>
+                <div class="code-example">
+                    <h2 class="headline">Code example</h2>
+                    <pre>
+                    <code>
+function killer(suspectInfo, dead) {
+    for (let key in suspectInfo) {
+        if (suspectInfo[key].includes(dead[0])) return key;
+    }
+}                       
+                    </code> 
+                    </pre>
+                   
+                </div>
+                <div class="education">
+                    <h2 class="headline">Education</h2>
+                    <ul>
+                        <li>Freecodecamp - Front End Development Libraries(now)</li>
+                        <li>Freecodecamp - Responsive Web Design (2021)</li>
+                        <li>Freecodecamp - JavaScript Algorithms and Data Structures JavaScript (2021)</li>
+                        <li>Stepic - JavaScript for begginers (2021)</li>
+                    </ul>
+                </div>
             </section>
         </div>
         <footer>
-            <div class="links">
-               <a href="https://rs.school/js/"><img src="rs_school_js.svg" alt="logo" width="90"></a>
-               <a href="https://github.com/alya783"><img src="github.png" alt="github" height="40"></a>
-            </div>
+            <span class="rs"><a href="https://rs.school/js/"><img src="img/rs_school_js.svg" alt="rsschool"></a></span>
+            <span class="git"><a href="https://github.com/alya783"><img src="img/github.png" alt='github'></a></span>
             <p>2021</p>
         </footer>
-    </main>
+    </main>  
 </body>
 </html>
