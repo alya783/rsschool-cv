@@ -7,19 +7,40 @@
 }
 
 body{
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .resume{
     max-width: 950px;
     height: auto;
-    margin: 0 auto;
-    /*border: 1px solid red;*/
+    margin: 0 auto; 
+}
+
+nav{
+    min-height: 60px;
+    background-color: #E8E8E8;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 18px;
+}
+
+.navigation li{
+    list-style-type: none;
+}
+
+.navigation a{
+    text-decoration: none;
+    font-weight: 400;
+    color: #251b22;
+    font-size: 18px;
+    line-height: 22px;
 }
 
 header{
     display: inline-flex;
-    /*flex-direction: row;*/
     width: 100%;
     background-color: #f7dde0;
 }
